@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@import "./tokens.css";
+
+@theme {
+  --color-bg-deep: var(--bg-deep);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-bg-card: var(--bg-card);
+  --color-accent: var(--accent);
+  --color-text-primary: var(--text-primary);
+  --color-text-body: var(--text-body);
+  --color-text-muted: var(--text-muted);
+  --color-text-system: var(--text-system);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+
+  --font-inter: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-plex: var(--font-plex-mono), ui-monospace, SFMono-Regular, monospace;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: var(--bg-deep);
+}
+
+body {
+  background-color: var(--bg-deep);
+  color: var(--text-body);
+  font-family: var(--font-inter);
+  cursor: default;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--border);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+}
+
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+a, button {
+  cursor: pointer;
+}
+
+/* Page transitions */
+.page-enter {
+  opacity: 0;
+}
+.page-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-out;
+}
+.page-exit {
+  opacity: 1;
+}
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-out;
+}
