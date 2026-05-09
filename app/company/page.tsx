@@ -6,8 +6,8 @@ export default function Company() {
   const founders = [
     { initials: "AB", name: "Abubakr Batalvi", role: "TECHNICAL LEAD", bio: "Leads trajectory and perception research at TrXon. Currently working through the manifold-constraint optimization and B-spline continuity problems that anchor the technical stack." },
     { initials: "RC", name: "Rodrigo Cartagena", role: "PRODUCT & STRATEGY", bio: "Drives the economic and product strategy at TrXon. Background in clean-tech engineering and competitive market research." },
-    { initials: "DA", name: "Dayem [Last name]", role: "ENGINEERING", bio: "Owns the system integration and front-end of the product." },
-    { initials: "AR", name: "Aarush [Last name]", role: "RESEARCH", bio: "Focuses on perception research and sensor fusion." },
+    { initials: "DR", name: "Dayem Riyasat", role: "ENGINEERING", bio: "Owns the system integration and front-end of the product." },
+    { initials: "AC", name: "Aarush Chakraborty", role: "RESEARCH", bio: "Focuses on perception research and sensor fusion." },
   ];
 
   return (
