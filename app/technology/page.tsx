@@ -80,8 +80,8 @@ export default function Technology() {
           </div>
           <div className="order-1 md:order-2 overflow-hidden border-[0.5px] border-border-strong bg-bg-card aspect-4/3 w-full">
             <img 
-              src="./desmos_nn_graph_prototype_1778297384867.png" 
-              alt="Desmos Prototype Graph" 
+              src="./desmos_nn_graph_real.png" 
+              alt="Neural Network Convergence Graph" 
               className="w-full h-full object-cover opacity-80"
             />
           </div>
