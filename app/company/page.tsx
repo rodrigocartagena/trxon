@@ -103,7 +103,7 @@ export default function Company() {
           We're at the start. The hard part is what comes next.
         </h2>
         <div className="h-[32px]" />
-        <GhostButton href="/contact" text="GET IN TOUCH" />
+        <GhostButton href="/contact" text="REQUEST DEMO" />
       </Section>
     </div>
   );

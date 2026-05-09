@@ -7,7 +7,7 @@ export default function Contact() {
     <div className="page-enter-active">
       {/* Header */}
       <Section className="pt-[80px] pb-[60px] md:pt-[100px] md:pb-[60px] lg:pt-[140px] lg:pb-[80px]">
-        <SystemLabel text="/ CONTACT" />
+        <SystemLabel text="/ REQUEST DEMO" />
         <div className="h-[32px]" />
         <h1 className="text-[40px] md:text-[48px] lg:text-[56px] font-medium text-text-primary tracking-[-2px]">
           Talk to us.
