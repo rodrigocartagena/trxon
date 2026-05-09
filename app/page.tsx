@@ -231,7 +231,7 @@ export default function Home() {
       <Section borderTop className="py-32 flex flex-col items-center justify-center text-center">
         <blockquote className="max-w-[800px]">
           <p className="text-[32px] md:text-[44px] font-medium text-text-primary leading-[1.1] tracking-[-2px] mb-8">
-            "The technology gets us 95% of the way there, then stops. We're building the stack for the last 5% — where the real work happens."
+            "Today's autonomy stops at the edge of the map. We're building for what's past it."
           </p>
           <cite className="not-italic text-[12px] font-plex text-accent uppercase tracking-[3px]">
             The TrXon Manifesto
