@@ -4,8 +4,8 @@ import SystemLabel from "../../components/SystemLabel";
 
 export default function Company() {
   const founders = [
-    { initials: "AB", name: "Abubakr Batalvi", role: "TECHNICAL LEAD", bio: "Leads the trajectory and perception research. Working through the manifold-constraint optimization and B-spline continuity problems that anchor the technical stack." },
-    { initials: "RC", name: "Rodrigo Cartagena", role: "PRODUCT & STRATEGY", bio: "Drives the economic and product roadmap. Background in clean-tech engineering and competitive market research." },
+    { initials: "AB", name: "Abubakr Batalvi", role: "TECHNICAL LEAD", bio: "Leads trajectory and perception research at TrXon. Currently working through the manifold-constraint optimization and B-spline continuity problems that anchor the technical stack." },
+    { initials: "RC", name: "Rodrigo Cartagena", role: "PRODUCT & STRATEGY", bio: "Drives the economic and product strategy at TrXon. Background in clean-tech engineering and competitive market research." },
     { initials: "DA", name: "Dayem [Last name]", role: "ENGINEERING", bio: "Owns the system integration and front-end of the product." },
     { initials: "AR", name: "Aarush [Last name]", role: "RESEARCH", bio: "Focuses on perception research and sensor fusion." },
   ];
@@ -21,11 +21,11 @@ export default function Company() {
         </h1>
         <div className="h-[40px]" />
         <p className="text-[15px] text-text-body max-w-[540px] leading-[1.8]">
-          TrXon exists because the autonomous vehicle industry made a choice: optimize for highways, where the roads are already drawn. The places where autonomy would actually save lives — defense convoys, disaster zones, construction megaprojects, remote logistics — were left to human drivers.
+          TrXon exists because the autonomous vehicle industry made a choice. They optimized for highways, where the roads are already drawn. The places where autonomy would actually save lives, like defense convoys, disaster zones, construction megaprojects, and remote logistics, got left to human drivers.
         </p>
         <div className="h-[20px]" />
         <p className="text-[15px] text-text-muted max-w-[540px]">
-          We think that's the wrong place to stop. So we're building the navigation stack for everywhere else.
+          We think that's the wrong place to stop. We're building the navigation stack for everywhere else.
         </p>
       </Section>
 
@@ -44,7 +44,7 @@ export default function Company() {
             <h3 className="text-[20px] font-medium text-text-primary">Engineering over marketing.</h3>
             <div className="h-[12px]" />
             <p className="text-[14px] text-text-muted leading-[1.7]">
-              We'd rather show working math than animated mockups. If a claim isn't backed by a prototype, a paper, or a number, we don't make it.
+              We'd rather show working math than animated mockups. If a claim isn't backed by a prototype, a research paper, or a real number, we don't make it.
             </p>
           </div>
           <div>
@@ -53,7 +53,7 @@ export default function Company() {
             <h3 className="text-[20px] font-medium text-text-primary">Honest about what's hard.</h3>
             <div className="h-[12px]" />
             <p className="text-[14px] text-text-muted leading-[1.7]">
-              Off-road autonomy is unsolved for a reason. We name our weak points before someone else does, and we kill what doesn't work.
+              Off-road autonomy is unsolved for a reason. We name our weak points before someone else does, and we kill the parts that don't work.
             </p>
           </div>
           <div>
@@ -62,7 +62,7 @@ export default function Company() {
             <h3 className="text-[20px] font-medium text-text-primary">Built for the operators.</h3>
             <div className="h-[12px]" />
             <p className="text-[14px] text-text-muted leading-[1.7]">
-              Defense logistics teams. Construction site managers. The people who actually move things across hard terrain. They're the customer — not the press release.
+              Defense logistics teams. Construction site managers. The people who actually move things across hard terrain. Those are the customers we build for, not the press.
             </p>
           </div>
         </div>
@@ -100,7 +100,7 @@ export default function Company() {
       {/* Closing */}
       <Section borderTop className="py-[120px] md:py-[150px] lg:py-[180px] min-h-[240px] flex flex-col items-center justify-center text-center">
         <h2 className="text-[28px] md:text-[32px] lg:text-[36px] font-medium text-text-primary tracking-[-1px] max-w-[480px]">
-          We're at the start. The hard part comes next.
+          We're at the start. The hard part is what comes next.
         </h2>
         <div className="h-[32px]" />
         <GhostButton href="/contact" text="GET IN TOUCH" />

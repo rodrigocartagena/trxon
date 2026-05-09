@@ -14,7 +14,7 @@ export default function Contact() {
         </h1>
         <div className="h-[28px]" />
         <p className="text-[15px] text-text-muted max-w-[480px]">
-          We're early. If you're a potential partner, customer, investor, or technical advisor — start a conversation.
+          We're early. If you're a potential partner, customer, investor, or technical advisor, we'd like to hear from you.
         </p>
       </Section>
 
@@ -107,7 +107,7 @@ export default function Contact() {
 
           <div className="h-[64px]" />
           <div className="font-plex text-[13px] text-text-system">
-            OR EMAIL US DIRECTLY: team@trx.ai
+            OR EMAIL US DIRECTLY: team@trxon.ai
           </div>
         </div>
       </Section>

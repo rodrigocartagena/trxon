@@ -30,11 +30,11 @@ export default function Home() {
         <div className="h-[56px]" />
         <div className="max-w-[540px]">
           <p className="text-[15px] text-text-body leading-[1.8]">
-            Tesla, Waymo, and every major autonomous system depend on lane markings, mapped highways, and predictable terrain. The moment surfaces become unpredictable — mud, gravel, debris, partial roads — they hand back control to a human driver.
+            Tesla, Waymo, and every major autonomous system depend on lane markings, mapped highways, and predictable terrain. The moment surfaces become unpredictable, the moment a road turns into mud or gravel or rubble, those systems hand control back to a human driver.
           </p>
           <div className="h-[20px]" />
           <p className="text-[15px] text-text-muted leading-[1.8]">
-            Meanwhile, $80B+ of global heavy material transport happens every day on terrain that no one has mapped. Defense convoys move through contested ground. Construction megaprojects bleed time on dirt access roads. Disaster response can't reach the places that need it most. The technology stops where the road stops.
+            That leaves over $80 billion of global heavy material transport on terrain nobody has mapped. Defense convoys still cross contested ground with human drivers behind the wheel. Construction megaprojects waste months on dirt access roads. Disaster response teams struggle to reach the places that need them most. The technology gets us 95% of the way there, then stops.
           </p>
         </div>
       </Section>
@@ -49,11 +49,11 @@ export default function Home() {
         <div className="h-[56px]" />
         <div className="max-w-[540px]">
           <p className="text-[15px] text-text-body leading-[1.8]">
-            TrXon is a navigation system that retrofits onto any existing truck, defense vehicle, or construction transport. It doesn't need pre-mapped roads, lane markings, or a controlled environment. It builds its understanding of the terrain in real time, from the sensors mounted on the vehicle itself.
+            TrXon is a navigation system that bolts onto any existing truck, defense vehicle, or construction transport. It doesn't need pre-mapped roads, lane markings, or a controlled environment. It builds its understanding of the terrain in real time, using only the sensors mounted on the vehicle.
           </p>
           <div className="h-[20px]" />
           <p className="text-[15px] text-text-muted leading-[1.8]">
-            The system fuses LiDAR, radar, and vision into a single live model of the world ahead, then plans a smooth, physically valid trajectory through it. No handoff. No geofence. No weather dependency.
+            LiDAR, radar, and camera feeds get fused into one live model of what's ahead, and the system plans a smooth, physically valid path through it. There's no driver handoff, no geofenced area it has to stay inside, and no weather conditions that take it offline.
           </p>
         </div>
       </Section>
@@ -68,11 +68,11 @@ export default function Home() {
         <div className="h-[56px]" />
         <div className="max-w-[540px]">
           <p className="text-[15px] text-text-body leading-[1.8]">
-            Our trajectory engine treats the world as a field of obstacles — walls, cliffs, rubble, mountains — detected in real time by LiDAR and radar. A small evolutionary neural network optimizes for two things at once: minimize sharp turns, and maximize distance from the nearest obstacle.
+            Our trajectory engine treats the world as a field of obstacles, anything from walls to cliffs to rubble to mountains, picked up in real time by LiDAR and radar. A small evolutionary neural network then balances two competing goals at once: keep the path smooth, and keep it as far from obstacles as possible.
           </p>
           <div className="h-[20px]" />
           <p className="text-[15px] text-text-muted leading-[1.8]">
-            We have a working prototype of this optimization running on real obstacle data. The path it generates is smooth, physically drivable, and adapts as new sensor information comes in.
+            We already have a working prototype running this optimization on real obstacle data. The paths it produces are smooth, physically drivable, and update as new sensor information comes in.
           </p>
         </div>
         
@@ -82,21 +82,21 @@ export default function Home() {
           <SystemLabel text="THE PROBLEM WITH BASIC PATH OPTIMIZATION" className="text-text-system tracking-[2px]" />
           <div className="h-[20px]" />
           <p className="text-[15px] text-text-body leading-[1.8]">
-            A direct neural network has a critical weakness: when a new obstacle is suddenly detected — a rock the LiDAR didn't see until now, a person stepping into the path — the entire trajectory shifts at once. To a human passenger, this feels like the vehicle swerving without warning. To the control system, it can mean unsafe braking or instability.
+            A direct neural network has a serious weakness. When a new obstacle is suddenly detected, like a rock the LiDAR couldn't see until the last moment, the entire trajectory recalculates at once. For a passenger, that feels like the vehicle yanking the wheel without warning. For the control system, it can trigger unsafe braking or instability.
           </p>
         </div>
         
         <div className="h-[56px]" />
         
         <div className="max-w-[540px] border-t-[0.5px] border-border pt-[56px]">
-          <SystemLabel text="OUR APPROACH — B-SPLINE CONTINUITY" className="text-text-system tracking-[2px]" />
+          <SystemLabel text="OUR APPROACH WITH B-SPLINE CONTINUITY" className="text-text-system tracking-[2px]" />
           <div className="h-[20px]" />
           <p className="text-[15px] text-text-body leading-[1.8]">
-            We rebuild the trajectory layer on top of B-splines — a class of curves that are mathematically guaranteed to be C² continuous. In practical terms, this means the path's curvature changes smoothly, never abruptly.
+            We rebuild the trajectory layer on top of B-splines, a class of curves that are mathematically guaranteed to be C² continuous. In practical terms, the path's curvature changes gradually instead of jumping.
           </p>
           <div className="h-[20px]" />
           <p className="text-[15px] text-text-muted leading-[1.8]">
-            When a new obstacle appears, only the local segment of the spline updates. The rest of the path stays stable. The vehicle doesn't swerve. The ride feels predictable. The control system stays in safe operating bounds.
+            When a new obstacle appears, only the local part of the spline near the obstacle updates. The rest of the path stays where it was. The vehicle adjusts without swerving, the ride stays predictable, and the control system stays in its safe operating range.
           </p>
         </div>
       </Section>
@@ -104,7 +104,7 @@ export default function Home() {
       {/* Closing */}
       <Section borderTop className="py-[120px] md:py-[160px] lg:py-[200px] min-h-[280px] flex items-center justify-center text-center">
         <h2 className="text-[28px] md:text-[36px] lg:text-[40px] font-medium text-text-primary leading-[1.15] tracking-[-1.5px] max-w-[480px] mx-auto">
-          Where mapped roads end, autonomy begins.
+          Where the mapped road ends, autonomy starts.
         </h2>
       </Section>
     </div>

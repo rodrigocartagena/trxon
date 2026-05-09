@@ -13,7 +13,7 @@ export default function Technology() {
         </h1>
         <div className="h-[28px]" />
         <p className="text-[15px] text-text-muted max-w-[480px] leading-[1.8]">
-          Three layers, engineered for the failure modes that stop existing autonomy systems.
+          Three layers, built for the conditions that stop existing autonomy systems.
         </p>
       </Section>
 
@@ -26,7 +26,7 @@ export default function Technology() {
             <h3 className="text-[20px] font-medium text-text-primary tracking-[-0.3px]">Sense</h3>
             <div className="h-[12px]" />
             <p className="text-[13px] text-text-muted leading-[1.6] max-w-[220px]">
-              Probabilistic sensor fusion engineered for the failure modes that stop existing systems — dust, mud, GPS loss, occluded terrain. The system fuses LiDAR, radar, and vision into a single live model of the environment.
+              Probabilistic sensor fusion built for the conditions that stop existing systems, including dust, mud, GPS loss, and blocked sightlines. The system fuses LiDAR, radar, and vision into one live model of the environment.
             </p>
           </div>
           <div>
@@ -35,7 +35,7 @@ export default function Technology() {
             <h3 className="text-[20px] font-medium text-text-primary tracking-[-0.3px]">Path</h3>
             <div className="h-[12px]" />
             <p className="text-[13px] text-text-muted leading-[1.6] max-w-[220px]">
-              Trajectory optimization for terrain that no map describes. A small evolutionary neural network learns smooth, physically valid paths in real time, with B-spline continuity ensuring the ride stays stable when new obstacles are detected.
+              Trajectory optimization for terrain that no map describes. A small evolutionary neural network learns smooth, physically valid paths in real time, and B-spline continuity keeps the ride stable when new obstacles are detected.
             </p>
           </div>
           <div>
@@ -44,7 +44,7 @@ export default function Technology() {
             <h3 className="text-[20px] font-medium text-text-primary tracking-[-0.3px]">Ops</h3>
             <div className="h-[12px]" />
             <p className="text-[13px] text-text-muted leading-[1.6] max-w-[220px]">
-              Multi-vehicle coordination across the deployment. Mission planning, secure software updates, telemetry, and fleet command — for convoys in defense and material transport in construction.
+              Multi-vehicle coordination across an entire deployment, covering mission planning, secure software updates, telemetry, and fleet command. Built for defense convoys and construction material transport.
             </p>
           </div>
         </div>
@@ -61,11 +61,11 @@ export default function Technology() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[64px]">
           <div className="order-2 md:order-1">
             <p className="text-[15px] text-text-body leading-[1.8]">
-              Our path-evolution engine is already running. A 64-genome evolutionary neural network optimizes obstacle-avoidance trajectories in real time, converging to a loss of 2.97×10⁻⁵ over 98 generations on test data.
+              Our path-evolution engine is already running. A 64-genome evolutionary neural network learns obstacle-avoidance trajectories in real time, converging to a loss of 2.97×10⁻⁵ over 98 generations on test data.
             </p>
             <div className="h-[20px]" />
             <p className="text-[15px] text-text-muted leading-[1.8]">
-              It's not the final product — but it's not vaporware either. The math works. The model converges. The path is smooth and physically drivable.
+              It isn't the final product, but it isn't vaporware either. The math works, the model converges, and the path it generates is smooth and physically drivable.
             </p>
             <div className="h-[32px]" />
             <a 
@@ -101,7 +101,7 @@ export default function Technology() {
               <h3 className="text-[20px] font-medium text-text-primary">Solid-state LiDAR collapsed in price.</h3>
               <div className="h-[12px]" />
               <p className="text-[14px] text-text-body leading-[1.7]">
-                Long-range LiDAR went from $75,000 in 2015 to under $500 in 2025, with sub-$200 production targets by 2028. The hardware wall just disappeared.
+                Long-range LiDAR dropped from $75,000 in 2015 to under $500 in 2025, with sub-$200 production targets by 2028. The hardware wall is gone.
               </p>
             </div>
           </div>
@@ -121,7 +121,7 @@ export default function Technology() {
               <h3 className="text-[20px] font-medium text-text-primary">The math caught up to the deployment need.</h3>
               <div className="h-[12px]" />
               <p className="text-[14px] text-text-body leading-[1.7]">
-                Manifold-constraint optimization and B-spline trajectory planning exist in research. The gap left to close is engineering, not theory — and that's a five-year window.
+                Manifold-constraint optimization and B-spline trajectory planning already exist in research papers. What's left to close is engineering, not theory, and that's a five-year window.
               </p>
             </div>
           </div>
