@@ -49,7 +49,7 @@ export default function Home() {
         <div className="h-[56px]" />
         <div className="max-w-[540px]">
           <p className="text-[15px] text-text-body leading-[1.8]">
-            TrX is a navigation system that retrofits onto any existing truck, defense vehicle, or construction transport. It doesn't need pre-mapped roads, lane markings, or a controlled environment. It builds its understanding of the terrain in real time, from the sensors mounted on the vehicle itself.
+            TrXon is a navigation system that retrofits onto any existing truck, defense vehicle, or construction transport. It doesn't need pre-mapped roads, lane markings, or a controlled environment. It builds its understanding of the terrain in real time, from the sensors mounted on the vehicle itself.
           </p>
           <div className="h-[20px]" />
           <p className="text-[15px] text-text-muted leading-[1.8]">

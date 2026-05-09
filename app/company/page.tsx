@@ -21,7 +21,7 @@ export default function Company() {
         </h1>
         <div className="h-[40px]" />
         <p className="text-[15px] text-text-body max-w-[540px] leading-[1.8]">
-          TrX exists because the autonomous vehicle industry made a choice: optimize for highways, where the roads are already drawn. The places where autonomy would actually save lives — defense convoys, disaster zones, construction megaprojects, remote logistics — were left to human drivers.
+          TrXon exists because the autonomous vehicle industry made a choice: optimize for highways, where the roads are already drawn. The places where autonomy would actually save lives — defense convoys, disaster zones, construction megaprojects, remote logistics — were left to human drivers.
         </p>
         <div className="h-[20px]" />
         <p className="text-[15px] text-text-muted max-w-[540px]">

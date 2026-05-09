@@ -20,6 +20,7 @@ export default function Nav() {
         <Link href="/" className="font-inter font-medium text-[20px] tracking-[-0.5px]">
           <span className="text-text-primary">Tr</span>
           <span className="text-accent">X</span>
+          <span className="text-text-primary">on</span>
         </Link>
 
         {/* Desktop Nav */}

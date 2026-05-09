@@ -73,9 +73,10 @@ export default function Contact() {
                 name="interest"
                 className="w-full bg-bg-deep border-b-[0.5px] border-border-strong py-[12px] text-[15px] text-text-primary focus:outline-none focus:border-accent transition-colors duration-200"
                 required
+                defaultValue=""
               >
-                <option value="" disabled selected className="text-text-system">Choose one</option>
-                <option value="partnering">Partnering with TrX</option>
+                <option value="" disabled className="text-text-system">Choose one</option>
+                <option value="partnering">Partnering with TrXon</option>
                 <option value="customer">Becoming a customer</option>
                 <option value="investing">Investing</option>
                 <option value="joining">Joining the team</option>

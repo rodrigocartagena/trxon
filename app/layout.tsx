@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"], weight: ["400", "500"], variable: "--f
 const plexMono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["500"], variable: "--font-plex-mono" });
 
 export const metadata: Metadata = {
-  title: "TrX - Autonomous Navigation",
+  title: "TrXon - Autonomous Navigation",
   description: "Autonomous navigation for the world the road doesn't reach.",
 };
 
