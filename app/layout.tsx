@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${plexMono.variable} scroll-smooth`}>
-      <body className="bg-bg-deep text-text-body font-inter antialiased min-h-screen flex flex-col selection:bg-accent selection:text-bg-deep">
+      <body className="bg-bg-deep text-text-body font-inter antialiased min-h-screen flex flex-col selection:bg-accent selection:text-bg-deep scanline">
         <Nav />
         <main className="flex-1 flex flex-col">
           {children}
