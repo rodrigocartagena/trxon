@@ -20,7 +20,7 @@ export default function Nav() {
       <div className="flex justify-between items-center max-w-[1440px] mx-auto">
         <Link href="/" className="font-inter font-medium text-[20px] tracking-[-0.5px] group relative">
           <span className="text-text-primary">Tr</span>
-          <span className="text-accent">x</span>
+          <span className="text-accent">X</span>
           <span className="text-text-primary">on</span>
           <div className="absolute -bottom-1 left-0 w-full h-[2px] bg-accent" />
         </Link>
