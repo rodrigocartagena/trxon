@@ -12,7 +12,7 @@ export default function Nav() {
     { name: "Overview", path: "/" },
     { name: "Technology", path: "/technology" },
     { name: "Applications", path: "/#applications" },
-    { name: "Contact", path: "/contact" },
+    { name: "Company", path: "/company" },
   ];
 
   return (

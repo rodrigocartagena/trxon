@@ -78,10 +78,12 @@ export default function Technology() {
               <span className="transition-transform duration-200 group-hover:translate-x-1">→</span>
             </a>
           </div>
-          <div className="order-1 md:order-2 flex items-center justify-center border-[0.5px] border-border-strong bg-bg-card aspect-4/3 w-full">
-            <span className="font-plex text-[11px] font-medium text-text-system text-center px-4">
-              DESMOS PROTOTYPE — TARGET GRAPH EVOLUTION NN
-            </span>
+          <div className="order-1 md:order-2 overflow-hidden border-[0.5px] border-border-strong bg-bg-card aspect-4/3 w-full">
+            <img 
+              src="./desmos_nn_graph_prototype_1778297384867.png" 
+              alt="Desmos Prototype Graph" 
+              className="w-full h-full object-cover opacity-80"
+            />
           </div>
         </div>
       </Section>

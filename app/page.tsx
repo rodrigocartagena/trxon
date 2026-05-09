@@ -15,7 +15,7 @@ export default function Home() {
       id: "01",
       category: "Agriculture",
       title: "Feeding 500M+ farmers, season after season.",
-      description: "Today's autonomous tractors hand back control the moment the field gets muddy or weather rolls in. Trexon keeps the machine working — through the night, through the rain, across uneven ground. At scale, that means cheaper food and fewer wasted hours in the planting and harvest windows.",
+      description: "Today's autonomous tractors hand back control the moment the field gets muddy or weather rolls in. TrXon keeps the machine working — through the night, through the rain, across uneven ground. At scale, that means cheaper food and fewer wasted hours in the planting and harvest windows.",
       image: "/agriculture_autonomous_field_top_view_1778296528229.png",
       metrics: [
         { value: "500M+", label: "farmers globally" },
@@ -27,7 +27,7 @@ export default function Home() {
       id: "02",
       category: "Mining",
       title: "Out of the cab, out of the danger zone.",
-      description: "Mining is the highest-fatality industry on earth. Autonomous haul trucks are the future, but current systems require carefully geofenced, pre-mapped sites. Trexon extends autonomy into pits where the ground itself changes daily — letting operators run faster, longer, with humans further from harm.",
+      description: "Mining is the highest-fatality industry on earth. Autonomous haul trucks are the future, but current systems require carefully geofenced, pre-mapped sites. TrXon extends autonomy into pits where the ground itself changes daily — letting operators run faster, longer, with humans further from harm.",
       image: "/mining_autonomous_haul_truck_pit_1778296576482.png",
       metrics: [
         { value: "3.7M", label: "mining workers" },
@@ -39,7 +39,7 @@ export default function Home() {
       id: "03",
       category: "Disaster response",
       title: "Inside the 72-hour survival window.",
-      description: "When buildings collapse, the first 72 hours decide who lives. Today, responders can't safely enter the rubble zone fast enough. Trexon enables autonomous ground robots to traverse unstable debris — searching, mapping, and reaching survivors while every minute still counts.",
+      description: "When buildings collapse, the first 72 hours decide who lives. Today, responders can't safely enter the rubble zone fast enough. TrXon enables autonomous ground robots to traverse unstable debris — searching, mapping, and reaching survivors while every minute still counts.",
       image: "/disaster_response_ground_robot_rubble_1778296594638.png",
       metrics: [
         { value: "72 hrs", label: "critical window" },
@@ -57,7 +57,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40" 
-            style={{ backgroundImage: `url('/agriculture_autonomous_tractor_field_sunset_1778296356048.png')` }}
+            style={{ backgroundImage: `url('./agriculture_autonomous_tractor_field_sunset_1778296356048.png')` }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-bg-deep/90 via-bg-deep/60 to-bg-deep" />
           {/* Subtle Grid Pattern */}
@@ -107,21 +107,21 @@ export default function Home() {
       </Section>
 
       {/* Problem Section */}
-      <Section id="problem" className="py-20 md:py-32 grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32 items-start">
-        <div>
+      <Section id="problem" className="py-20 md:py-32">
+        <div className="max-w-[800px]">
           <SystemLabel text="/ THE PROBLEM" />
           <div className="h-[32px]" />
-          <h2 className="text-[40px] md:text-[52px] font-medium text-text-primary leading-[1.0] tracking-[-2px]">
-            The road ends.<br />Autonomy stops.
+          <h2 className="text-[40px] md:text-[52px] font-medium text-text-primary leading-[1.0] tracking-[-2px] mb-12">
+            The road ends. Autonomy stops.
           </h2>
-        </div>
-        <div className="space-y-8">
-          <p className="text-[18px] text-text-body leading-[1.6]">
-            95% of autonomous vehicle development targets structured roads. The <span className="text-text-primary font-medium">$100B+ off-road equipment industry</span> — agriculture, mining, disaster response — remains almost entirely human-operated. Current AV systems fail the moment terrain becomes unpredictable.
-          </p>
-          <p className="text-[15px] text-text-muted leading-[1.8]">
-            John Deere's most advanced autonomous tractor hands control back to a human when conditions change. DARPA has run off-road AV challenges for over twenty years. The gap remains.
-          </p>
+          <div className="space-y-8">
+            <p className="text-[20px] text-text-body leading-[1.6]">
+              95% of autonomous vehicle development targets structured roads. The $100B+ off-road equipment industry — agriculture, mining, disaster response — remains almost entirely human-operated. Current AV systems fail the moment terrain becomes unpredictable.
+            </p>
+            <p className="text-[16px] text-text-muted leading-[1.8] max-w-[640px]">
+              John Deere's most advanced autonomous tractor hands control back to a human when conditions change. DARPA has run off-road AV challenges for over twenty years. The gap remains.
+            </p>
+          </div>
         </div>
       </Section>
 
@@ -173,8 +173,8 @@ export default function Home() {
           ].map((step, i) => (
             <div key={i} className="flex-1 min-w-[200px] flex items-start gap-4">
               <div className="flex flex-col gap-4">
-                <div className="text-[11px] font-plex text-accent">0{i+1}</div>
-                <div className="text-[14px] text-text-primary leading-[1.4] pr-4">{step}</div>
+                <div className="text-[12px] font-plex text-accent">0{i+1}</div>
+                <div className="text-[17px] text-text-primary leading-[1.4] font-medium pr-4">{step}</div>
               </div>
               {i < 4 && <div className="hidden md:block text-text-system mt-8">→</div>}
             </div>
@@ -217,7 +217,7 @@ export default function Home() {
               </div>
               <div className="aspect-video bg-bg-elevated border border-border/50 rounded-[8px] overflow-hidden">
                 <img 
-                  src={app.image} 
+                  src={`./${app.image.split('/').pop()}`} 
                   alt={app.category} 
                   className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-500"
                 />
