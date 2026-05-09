@@ -107,7 +107,7 @@ export default function Contact() {
 
           <div className="h-[64px]" />
           <div className="font-plex text-[13px] text-text-system">
-            OR EMAIL US DIRECTLY: team@trxon.ai
+            OR EMAIL US DIRECTLY: rodrigocartagenav10@gmail.com
           </div>
         </div>
       </Section>
