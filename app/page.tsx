@@ -182,50 +182,7 @@ export default function Home() {
         </div>
       </Section>
 
-      {/* Applications Section */}
-      <Section id="applications" borderTop className="py-20 md:py-32">
-        <div className="max-w-[700px] mb-20">
-          <SystemLabel text="/ APPLICATIONS" />
-          <div className="h-[32px]" />
-          <h2 className="text-[40px] md:text-[52px] font-medium text-text-primary leading-[1.0] tracking-[-2px] mb-6">
-            Wherever the road ends, work begins.
-          </h2>
-          <p className="text-[16px] text-text-muted leading-[1.8]">
-            TrXon ships as one stack. The terrain — and the impact — changes with the industry.
-          </p>
-        </div>
 
-        <div className="flex flex-col gap-32">
-          {applications.map((app, i) => (
-            <div key={i} className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-              <div className="space-y-8">
-                <SystemLabel text={`/ ${app.id} · ${app.category}`} />
-                <h3 className="text-[32px] md:text-[40px] font-medium text-text-primary leading-[1.1] tracking-[-1px]">
-                  {app.title}
-                </h3>
-                <p className="text-[16px] text-text-body leading-[1.8]">
-                  {app.description}
-                </p>
-                <div className="grid grid-cols-3 gap-8 pt-8">
-                  {app.metrics.map((metric, j) => (
-                    <div key={j} className="space-y-1">
-                      <div className="text-[24px] font-medium text-text-primary tracking-[-0.5px]">{metric.value}</div>
-                      <div className="text-[10px] font-plex text-text-system uppercase tracking-[1px] leading-[1.2]">{metric.label}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="aspect-video bg-bg-elevated border border-border/50 rounded-[8px] overflow-hidden">
-                <img 
-                  src={`./${app.image.split('/').pop()}`} 
-                  alt={app.category} 
-                  className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-500"
-                />
-              </div>
-            </div>
-          ))}
-        </div>
-      </Section>
 
       {/* Quote Section */}
       <Section borderTop className="py-32 flex flex-col items-center justify-center text-center">

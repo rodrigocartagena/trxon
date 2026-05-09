@@ -11,7 +11,7 @@ export default function Nav() {
   const links = [
     { name: "Overview", path: "/" },
     { name: "Technology", path: "/technology" },
-    { name: "Applications", path: "/#applications" },
+    { name: "Applications", path: "/applications" },
     { name: "Company", path: "/company" },
   ];
 
