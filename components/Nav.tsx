@@ -18,9 +18,11 @@ export default function Nav() {
   return (
     <header className="sticky top-0 z-50 w-full bg-bg-deep/80 backdrop-blur-md border-b-[0.5px] border-border py-[18px] px-5 md:px-[36px]">
       <div className="flex justify-between items-center max-w-[1440px] mx-auto">
-        <Link href="/" className="font-inter font-medium text-[20px] tracking-[-0.5px] flex items-center gap-2">
-          <div className="w-[12px] h-[12px] bg-accent rounded-full" />
-          <span className="text-text-primary">TrXon</span>
+        <Link href="/" className="font-inter font-medium text-[20px] tracking-[-0.5px] group relative">
+          <span className="text-text-primary">Tr</span>
+          <span className="text-accent">x</span>
+          <span className="text-text-primary">on</span>
+          <div className="absolute -bottom-1 left-0 w-full h-[2px] bg-accent" />
         </Link>
 
         {/* Desktop Nav */}
