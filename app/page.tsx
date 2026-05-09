@@ -16,7 +16,7 @@ export default function Home() {
       category: "Agriculture",
       title: "Feeding 500M+ farmers, season after season.",
       description: "Today's autonomous tractors hand back control the moment the field gets muddy or weather rolls in. TrXon keeps the machine working — through the night, through the rain, across uneven ground. At scale, that means cheaper food and fewer wasted hours in the planting and harvest windows.",
-      image: "/agriculture_autonomous_field_top_view_1778296528229.png",
+      image: "/agriculture_app.jpg",
       metrics: [
         { value: "500M+", label: "farmers globally" },
         { value: "24/7", label: "operating window" },
@@ -28,7 +28,7 @@ export default function Home() {
       category: "Mining",
       title: "Out of the cab, out of the danger zone.",
       description: "Mining is the highest-fatality industry on earth. Autonomous haul trucks are the future, but current systems require carefully geofenced, pre-mapped sites. TrXon extends autonomy into pits where the ground itself changes daily — letting operators run faster, longer, with humans further from harm.",
-      image: "/mining_autonomous_haul_truck_pit_1778296576482.png",
+      image: "/mining_app.png",
       metrics: [
         { value: "3.7M", label: "mining workers" },
         { value: "#1", label: "fatality industry" },
@@ -40,7 +40,7 @@ export default function Home() {
       category: "Disaster response",
       title: "Inside the 72-hour survival window.",
       description: "When buildings collapse, the first 72 hours decide who lives. Today, responders can't safely enter the rubble zone fast enough. TrXon enables autonomous ground robots to traverse unstable debris — searching, mapping, and reaching survivors while every minute still counts.",
-      image: "/disaster_response_ground_robot_rubble_1778296594638.png",
+      image: "/disaster_response_app.jpg",
       metrics: [
         { value: "72 hrs", label: "critical window" },
         { value: "0 ms", label: "delay in response" },
